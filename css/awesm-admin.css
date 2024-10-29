@@ -1,0 +1,148 @@
+h3 span {font-size: 12px;font-style: italic;}
+
+#awesm-basic-options {}
+
+fieldset.awesm-button-set {	padding: 10px; }
+
+legend {
+	clear: both;
+}
+.awesm-service-list {
+}
+.awesm-service-list h4 {
+	font-weight: normal;
+	margin-bottom: 0em;
+	margin-top: 1em;
+}
+.awesm-drag-container {
+	margin-top: 0.5em;
+}
+.awesm-drag-container ul {
+	display: block;
+    min-height: 30px;
+    width: 90%;
+}
+.awesm-drag-container ul:after {
+	display: block;
+	content: '.';
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+}
+.awesm-service-list ul li {
+	float: left;
+	border: 1px solid #999;
+	-moz-box-shadow: 2px 2px 2px #ccc;
+	-webkit-box-shadow: 2px 2px 2px #ccc;
+	box-shadow: 2px 2px 2px #ccc;	
+	margin-right: 1em;
+	padding: 5px 10px 3px 32px;	
+	height: 16px;
+	background-color: #fff;
+	background-position: -1px -1px;
+	background-repeat: no-repeat;
+	background-size: 26px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+	cursor: move;
+}
+#awesm-service-twitter { background-image: url('../img/icon32-twitter.png'); }
+#awesm-service-fblike { background-image: url('../img/icon32-facebook.png'); }
+#awesm-service-fbsend { background-image: url('../img/icon32-facebook.png'); }
+#awesm-service-fbshare { background-image: url('../img/icon32-facebook.png'); }
+#awesm-service-gplus { background-image: url('../img/icon32-googleplus.png'); }
+#awesm-service-linkedin { background-image: url('../img/icon32-linkedin.png'); }
+#awesm-service-pinterest { background-image: url('../img/icon32-pinterest.png'); }
+#awesm-service-email { background-image: url('../img/icon32-email.png'); }
+#awesm-service-custom { background-image: url('../img/icon36-custom.png'); }
+
+.awesm-service-list ul li input {margin: 0 0 0 3px;}
+
+.awesm-config-service textarea {
+	width: 45em;
+	height: 7em;
+}
+.awesm-button-layout {
+	margin-top: 1em;
+}
+.awesm-set-placement, .awesm-set-context {
+	float: left;
+	margin-right: 1em;
+    width: 47%;
+}
+.awesm-set-placement .form-table, .awesm-set-context .form-table {border: none;width: 100%;}
+.awesm-set-placement .form-table .label {width: 32%;}
+.awesm-set-placement h4 {margin: 0.5em 0;}
+.awesm-set-context h4 {margin-bottom: 0;}
+.awesm-button-layout:after {
+	display: block;
+	content: '.';
+	height: 0px;
+	visibility: hidden;
+	clear: both;	
+}
+.awesm-extra-button-config table {
+	width: 60%;
+}
+#awesm-automatic-publishing {
+	padding-top: 2em;
+}
+#awesm-automatic-publishing .form-table {
+	width: 80%;
+}
+#awesm-automatic-publishing .form-table .form-table {
+	width: 100%;
+}
+.awesm-error {
+	background-color: #faa;
+}
+
+.form-table {border-bottom: 1px solid #AAAAAA;width: 95%;}
+.form-table td {vertical-align: top;}
+.form-table .label {
+    text-align: right;
+    width: 15%;
+}
+.form-table td span {display: block;font-size: 11px;padding: 0 3px;}
+.form-table td.checkbox {background: none;}
+.form-table td textarea, 
+.form-table td input[type="text"], 
+.form-table td input[type="password"], 
+.form-table td input[type="file"], 
+.form-table td input[type="email"], 
+.form-table td input[type="number"], 
+.form-table td input[type="search"], 
+.form-table td input[type="tel"], 
+.form-table td input[type="url"], 
+.form-table td select {
+    width: 340px;
+}
+
+.awesm-tabs-nav {overflow: hidden;margin-bottom: -1px;position: relative;}
+.awesm-tabs-nav div {
+    background: #FBFBFB;
+    border-style: solid;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-width: 1px;
+    color: #AAAAAA;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 6px 0 0;
+    padding: 4px 14px 6px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.awesm-tabs-nav .active {border-bottom-color: #FBFBFB;}
+.awesm-tabs-nav div a {text-decoration: none;color: #AAAAAA;outline: none;}
+.awesm-tabs-nav div a:hover, .awesm-tabs-nav .active a {color: #464646;}
+.awesm-tabs {
+    background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #AAAAAA;
+    padding: 5px 10px 20px;
+}
+.awesm-tabs .form-table {border-bottom: none;}
+.awesm-tabs .awesm-config-service h4 {font-size: 15px;}
+.manual_instructions {display: none;}
